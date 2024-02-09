@@ -15,5 +15,5 @@ class CKEditorConfig(AppConfig):
     default_auto_field = "django.db.models.AutoField"
     name = "ckeditor"
 
-    def ready(self):
-        register(check_ckeditor_version)
+    # def ready(self):
+    #     register(check_ckeditor_version)
